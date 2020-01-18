@@ -8,4 +8,5 @@ soup=bs.BeautifulSoup(webpage,'xml')
 for item in soup.find_all('title'):
 	print(item.text)
 
-print(soup)
+
+#print(soup)
